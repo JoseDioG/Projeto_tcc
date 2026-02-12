@@ -1,0 +1,2 @@
+Nesta pasta favor colocar apenas arquivos de escopo e icons/imagens que serão usadas no site.
+Apague esse bloco de notas quando já tiver algo na pagina.
