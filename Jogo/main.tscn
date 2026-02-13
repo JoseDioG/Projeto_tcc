@@ -42,12 +42,14 @@ data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0
 [node name="Node3D" type="Node3D" unique_id=105017244]
 
 [node name="sol" type="DirectionalLight3D" parent="." unique_id=743345871]
-transform = Transform3D(-0.0018010612, -0.9999153, 0.012876842, 0.9519638, 0.002228595, 0.3062025, -0.30620542, 0.012809779, 0.95187956, 0, 3.0748286, 0)
-light_energy = 0.8
+transform = Transform3D(-0.0018010614, -0.99991554, 0.012876857, 0.6333295, 0.008824599, 0.7738322, -0.7738801, 0.009548996, 0.6332602, 0, 3.0748286, 0)
+light_energy = 0.642
 shadow_enabled = true
+shadow_blur = 0.792
 directional_shadow_mode = 0
-directional_shadow_fade_start = 1.0
-directional_shadow_max_distance = 9.0
+directional_shadow_fade_start = 0.0
+directional_shadow_max_distance = 11.7
+directional_shadow_pancake_size = 0.0
 
 [node name="mundo" type="WorldEnvironment" parent="." unique_id=657877721]
 environment = SubResource("Environment_ig7tw")
