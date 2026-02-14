@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c0sa2uqx1ub38"]
 
-[ext_resource type="PackedScene" uid="uid://dtb3tg3ybydpg" path="res://entidades/personagemPrincipal/personagem principal.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://c01hpb0kclge2" path="res://entidades/personagemPrincipal/personagemPrincipal.tscn" id="1_ig7tw"]
 
 [sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_7dm0k"]
 rayleigh_coefficient = 4.85
@@ -55,9 +55,6 @@ directional_shadow_pancake_size = 0.0
 environment = SubResource("Environment_ig7tw")
 camera_attributes = SubResource("CameraAttributesPractical_ig7tw")
 
-[node name="PersonagemPrincipal" parent="." unique_id=1020578364 instance=ExtResource("1_ig7tw")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3201709, 0, 1.8361517)
-
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=328490849]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=508299172]
@@ -77,3 +74,5 @@ mesh = SubResource("BoxMesh_7dm0k")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.52092314, 0)
 visible = false
 shape = SubResource("ConcavePolygonShape3D_0xm2m")
+
+[node name="PersonagemPrincipal" parent="." unique_id=28925119 instance=ExtResource("1_ig7tw")]
