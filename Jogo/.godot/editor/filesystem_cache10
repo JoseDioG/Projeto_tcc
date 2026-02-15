@@ -1,7 +1,7 @@
 72322a848ab928aa5c89f0cb78209805
-::res://::1771106352
+::res://::1771186583
 export_presets.cfg::TextFile::-1::1770992059::0::1::::<><><>0<>0<><>::
-main.tscn::PackedScene::6564770550609941117::1771106352::0::1::::<><><>0<>0<><>::uid://dtb3tg3ybydpg::::res://entidades/personagemPrincipal/personagemPrincipal.tscn
+main.tscn::PackedScene::6564770550609941117::1771106664::0::1::::<><><>0<>0<><>::uid://c01hpb0kclge2::::res://entidades/personagemPrincipal/personagemPrincipal.tscn
 ::res://addons/::1770991342
 ::res://addons/zylann.hterrain/::1770991348
 hterrain.gd::GDScript::3942939355119751996::1770991343::0::1::::<>Node3D<><>0<>1<><>::
@@ -207,11 +207,13 @@ logger.gd::GDScript::2138161228829475832::1770991346::0::1::::<>RefCounted<><>0<
 util.gd::GDScript::4988329749702672299::1770991346::0::1::::<>RefCounted<><>0<>1<><>::
 xyz_format.gd::GDScript::2495918735195581278::1770991347::0::1::::<>RefCounted<><>0<>1<><>::
 ::res://entidades/::1770988749
-::res://entidades/animaçoes/::1770988702
-::res://entidades/personagemPrincipal/::1771106556
+::res://entidades/animaçoes/::1771186583
+Parado_Player.tscn::PackedScene::3276203882652381825::1771186335::0::1::::<><><>0<>0<><>::
+provisório.tscn::PackedScene::8630411070054679971::1771186570::0::1::::<><><>0<>0<><>::
+::res://entidades/personagemPrincipal/::1771186583
 camera_pivot.gd::GDScript::7861195477871479269::1771106295::0::1::::<>Node3D<><>0<>0<><>::
-personagem_principal.gd::GDScript::7412330880815859162::1771104446::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Personagem Principal.tscn::PackedScene::6581688177401431475::1771106476::0::1::::<><><>0<>0<><>::
+personagemPrincipal.tscn::PackedScene::6581688177401431475::1771184540::0::1::::<><><>0<>0<><>::uid://d4knbwxtcc3rp::::res://entidades/personagemPrincipal/player.gd<>uid://dkaa0gtxu3cxp::::res://entidades/personagemPrincipal/camera_pivot.gd
+player.gd::GDScript::9216174592732971025::1771106603::0::1::::<>CharacterBody3D<><>0<>0<><>::
 ::res://Menus/::1771024331
 ::res://Menus/MenusDeLobby/::1771024321
 ::res://Menus/MenusDeLobby/Lobby/::1771044282
